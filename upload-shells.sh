@@ -9,4 +9,4 @@ git push origin master
 echo "success push git!"
 ssh root@47.95.215.144 "sh /shells/rebase-shells.sh"
 "echo gone"
-#success
+#success !
