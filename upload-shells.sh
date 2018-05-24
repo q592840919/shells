@@ -12,4 +12,4 @@ sleep 10s
 ssh root@47.95.215.144 "sh /shells/rebase-shells.sh"
 "echo gone"
 pause
-#successful!
+#successful!one
