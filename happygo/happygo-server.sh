@@ -1,3 +1,4 @@
+#创建新镜像
 cd /minipro/happygo-egg
 git fetch origin
 git rebase origin/master
