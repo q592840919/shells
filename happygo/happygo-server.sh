@@ -4,6 +4,7 @@ git fetch origin
 git rebase origin/master
 docker build -t happygo-egg-server .
 docker images|grep none|awk '{print $3 }'|xargs docker rmi
+#重启容器
 cd /docker/composefile/happygo-egg-server
 docker-compose stop
-docker-compose up
+docker-compose up -d
